@@ -2,4 +2,4 @@
 
 **1. main.c**
 
-![1](images/1.png)
+![1](result/1.png)
