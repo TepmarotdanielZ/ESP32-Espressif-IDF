@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 ## RESULT TESING DHT11
 
 ![1](result/1.png)
-=======
+
 ## RESUTL TESTING DHT11 
 
 **1. main.c**
