@@ -53,3 +53,15 @@ How to Add the **`dht11.h`** File:
 ![3](result/3.png)
 
 By following these steps, you will enable the use of the DHT11 sensor functions provided in the **`dht11.h`** library within your project.
+
+**4. CMakeLists.txt**
+
+Adding **`dht11.c`** Library to the **`CMakeLists.txt`** for Project Configuration
+
+* Steps to Add the **`dht11.c`** File:
+ * **Locate the `CMakeLists.txt`:**
+   * In the project explorer, navigate to **`DHT11/main`** and click on the **`CMakeLists.txt`** file.
+  
+
+  
+
