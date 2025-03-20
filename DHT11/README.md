@@ -80,10 +80,10 @@ idf_component_register(
 )
 ```
 
-  * **Save the Changes:**
-    * After adding the library reference, save the **`CMakeLists.txt`** file.
-  * **Rebuild the Project:**
-    * Click on the **`"Build"`** option in your IDE to rebuild your project. This will ensure **`dht11.c`** is linked correctly.
+   * **Save the Changes:**
+     * After adding the library reference, save the **`CMakeLists.txt`** file.
+   * **Rebuild the Project:**
+     * Click on the **`"Build"`** option in your IDE to rebuild your project. This will ensure **`dht11.c`** is linked correctly.
    
 ![4](result/4.png)
 
