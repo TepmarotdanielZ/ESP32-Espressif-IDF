@@ -153,4 +153,4 @@ Temperature: 32  Humidity: 53
 
   
 
->>>>>>> origin/master
+
