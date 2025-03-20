@@ -109,8 +109,31 @@ By following these steps, you will successfully add the **`dht11.c`** library to
 
  Once completed, your project will be set up to compile and upload to the specified ESP32 board. This ensures that your code can communicate with the hardware correctly.
 
+ **6. Running Code to Read Temperature and Humidity from DHT11 on ESP-IDF 4.4 PowerShell:**
 
+ * **Open PowerShell:**
+  * Launch PowerShell.**
 
+ * **Navigate to Your Project Directory:**
+  * Use the **`cd`** command to navigate to the directory where your ESP-IDF project is located.
+
+ * **Run the Build, Flash, and Monitor Command:**
+  * Execute the following command to build the project, flash it to the ESP32, and start monitoring the output:
+
+```c
+idf.py -p COM11 build flash monitor  
+```
+
+ * **View the Output:**
+  * After running the command, you should see serial output reflecting temperature and humidity readings every few seconds, similar to:
+
+```c
+Temperature: 32  Humidity: 53   
+```
+
+ ![6](result/6.png)
+
+ Following these steps will allow you to successfully compile and upload your code to the **ESP32**, enabling you to observe the **DHT11** sensor data in real-time.
 
 
   
