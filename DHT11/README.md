@@ -61,6 +61,35 @@ Adding **`dht11.c`** Library to the **`CMakeLists.txt`** for Project Configurati
 * Steps to Add the **`dht11.c`** File:
   * **Locate the `CMakeLists.txt`:**
     * In the project explorer, navigate to **`DHT11/main`** and click on the **`CMakeLists.txt`** file.
+
+  * **Modify the `CMakeLists.txt`:**
+    * Open the **`CMakeLists.txt`** file for editing.
+    * Find the section where you can specify components and libraries. Add the following line to include the **`dht11.c`** library:
+
+```c
+# See the build system documentation in IDF programming guide
+# for more information about component CMakeLists.txt files.
+
+idf_component_register(
+    SRCS main.c         # list the source files of this component
+    dht11.c
+    INCLUDE_DIRS        # optional, add here public include directories
+    PRIV_INCLUDE_DIRS   # optional, add here private include directories
+    REQUIRES            # optional, list the public requirements (component names)
+    PRIV_REQUIRES       # optional, list the private requirements
+)
+```
+
+  * **Save the Changes:**
+    * After adding the library reference, save the **`CMakeLists.txt`** file.
+  * **Rebuild the Project:**
+    * Click on the **`"Build"`** option in your IDE to rebuild your project. This will ensure **`dht11.c`** is linked correctly.
+   
+![4](result/4.png)
+
+By following these steps, you will successfully add the **`dht11.c`** library to your project's configuration, enabling its functionalities in your code.
+
+
   
 
   
