@@ -27,9 +27,29 @@ How to Add the **`dht11.c`** File:
 
 ![2](result/2.png)
 
+Following these steps will enable you to utilize the DHT11 sensor functions provided by the **`dht11.c`** library in your code.
+
 
 **3. dht11.h**
 
-The red box highlights in the image appear to be pointing to the line of code where the **`Add Library "dht11.c"`** comment is located. This suggests that the user is trying to add the **`dht11.c`** library file to their project, likely to use the functionality provided by the DHT11 temperature and humidity sensor.
+How to Add the **`dht11.h`** File:
 
-![2](result/2.png)
+* **Locate the Library:**
+  * Find the **`dht11.h`** file in the project explorer under the **`DHT11/main/dht11`** directory.
+
+* **Include the Library in Your Code:**
+  * Open the main source file (e.g., **`main.c`** or another relevant file).
+  * At the top of your file, add the following line to include the DHT11 header:
+
+```c
+#include "dht11.h"  
+```
+
+* **Rebuild the Project:**
+
+  * Save your changes after including the header.
+  * Rebuild your project by selecting the **`"Build"`** option in your IDE to ensure the new library is linked properly.
+
+![3](result/3.png)
+
+By following these steps, you will enable the use of the DHT11 sensor functions provided in the **`dht11.h`** library within your project.
