@@ -89,6 +89,29 @@ idf_component_register(
 
 By following these steps, you will successfully add the **`dht11.c`** library to your project's configuration, enabling its functionalities in your code.
 
+**5. Setting Up the ESP32 Target for Project Compilation and Upload:**
+
+* **Steps to Add and Configure the ESP32 Target:**
+  * **Access Project Settings:**
+    * Click on the **Settings** option at the top of the IDE.
+   
+  * **Configure New ESP Target:**
+    * In the pop-up window, set the **Name** to **`esp323`**.
+    * Select the **IDF Target Board** as **`esp32s3`**.
+   
+  * **Select Serial Port:**
+    * Choose the appropriate **Serial Port** (e.g., **`COM11`**) from the dropdown.
+   
+  * **Finish Configuration:**
+    * Click **Finish** to save the new target configuration.
+   
+ ![5](result/5.png)
+
+ Once completed, your project will be set up to compile and upload to the specified ESP32 board. This ensures that your code can communicate with the hardware correctly.
+
+
+
+
 
   
 
