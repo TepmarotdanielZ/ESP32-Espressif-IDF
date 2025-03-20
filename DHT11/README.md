@@ -9,21 +9,21 @@
 
 How to Add the **`dht11.c`** File:
 
-**1. Locate the Library:**
-* In your project structure, navigate to **`DHT11/main`** to find the **`dht11.c`** file.
+* **Locate the Library:**
+  * In your project structure, navigate to **`DHT11/main`** to find the **`dht11.c`** file.
 
-**2. Include the Library in Your Code:**
-* Open the source file (e.g., main.c) where you want to use the DHT11 functionalities.
-* At the top of your source file, add the following line:
+* **Include the Library in Your Code:**
+  * Open the source file (e.g., main.c) where you want to use the DHT11 functionalities.
+  * At the top of your source file, add the following line:
 
 ```c
 #include "dht11.h"  
 ```
 
-**3. Rebuild the Project:**
+* **Rebuild the Project:**
 
-* After including the library, save your changes.
-* Rebuild the entire project to ensure that the new library is linked correctly. This can usually be done by clicking on the **"Build"** or **"Run"** option in your IDE.
+  * After including the library, save your changes.
+  * Rebuild the entire project to ensure that the new library is linked correctly. This can usually be done by clicking on the **"Build"** or **"Run"** option in your IDE.
 
 ![2](result/2.png)
 
