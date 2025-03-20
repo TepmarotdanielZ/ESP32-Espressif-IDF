@@ -112,20 +112,20 @@ By following these steps, you will successfully add the **`dht11.c`** library to
  **6. Running Code to Read Temperature and Humidity from DHT11 on ESP-IDF 4.4 PowerShell:**
 
  * **Open PowerShell:**
-  * Launch PowerShell.**
+   * Launch PowerShell.**
 
  * **Navigate to Your Project Directory:**
-  * Use the **`cd`** command to navigate to the directory where your ESP-IDF project is located.
+   * Use the **`cd`** command to navigate to the directory where your ESP-IDF project is located.
 
  * **Run the Build, Flash, and Monitor Command:**
-  * Execute the following command to build the project, flash it to the ESP32, and start monitoring the output:
+   * Execute the following command to build the project, flash it to the ESP32, and start monitoring the output:
 
 ```c
 idf.py -p COM11 build flash monitor  
 ```
 
  * **View the Output:**
-  * After running the command, you should see serial output reflecting temperature and humidity readings every few seconds, similar to:
+   * After running the command, you should see serial output reflecting temperature and humidity readings every few seconds, similar to:
 
 ```c
 Temperature: 32  Humidity: 53   
