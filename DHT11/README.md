@@ -135,6 +135,14 @@ Temperature: 32  Humidity: 53
 
  Following these steps will allow you to successfully compile and upload your code to the **ESP32**, enabling you to observe the **DHT11** sensor data in real-time.
 
+  **7. Result Testing:**
+
+ ![7](result/7.png)  
+
+  **8. Component Testing:**
+
+ ![9](result/9.png)  
+
 
   
 
